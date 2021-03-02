@@ -1,6 +1,6 @@
 # twarc-ids
 
-This module is a simple example of how to create a plugin for twarc. It uses
+This module is a simple example of how to create a plugin for [twarc]. It uses
 [click-plugins] to extend the main twarc command, and to manage the command
 line options.
 
@@ -27,7 +27,6 @@ so that twarc will find your plugin when it is installed!
 
 [click-plugins]: https://pypi.org/project/click-plugins/
 [pytest]: https://pypi.org/project/pytest/ 
-
 [test_twarc_ids.py]: https://github.com/DocNow/twarc-ids/blob/main/test_twarc_ids.py
-
 [entry_points magic]: https://github.com/DocNow/twarc-ids/blob/main/setup.py#L20-L22
+[twarc]: https://github.com/docnow/twarc
