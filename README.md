@@ -16,9 +16,15 @@ And you have a new subcommand `ids` that is supplied by twarc-ids.
 
     twarc ids tweets.jsonl > ids.txt
 
-It's good practice to include some tests for your module. See test_twarc_ids for an example. You can run these with [pytest]:
+It's good practice to include some tests for your module. See
+[test_twarc_ids.py] for an example. You can run these with [pytest]:
 
     pytest test_twarc_ids
 
+When creating your setup.py make sure you don't forget the entry_points magic
+so that twarc will find your plugin when it is installed!
+
 [click-plugins]: https://pypi.org/project/click-plugins/
 [pytest]: https://pypi.org/project/pytest/ 
+
+[test_twarc_ids.py]: https://github.com/DocNow/twarc-ids/blob/main/test_twarc_ids.py
