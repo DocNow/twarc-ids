@@ -21,4 +21,4 @@ It's good practice to include some tests for your module. See test_twarc_ids for
     pytest test_twarc_ids
 
 [click-plugins]: https://pypi.org/project/click-plugins/
-[pytest]: https://pypi.org/projects/pytest/ 
+[pytest]: https://pypi.org/project/pytest/ 
