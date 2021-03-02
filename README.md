@@ -10,7 +10,7 @@ First you need to install twarc and this plugin:
 
 Now you can collect data using the core twarc utility:
 
-    twarc search blacklivesmatter > tweets.json
+    twarc search blacklivesmatter > tweets.jsonl
 
 And you have a new subcommand `ids` that is supplied by twarc-ids.
 
