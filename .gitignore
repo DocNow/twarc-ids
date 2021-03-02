@@ -1,2 +1,3 @@
 .eggs
+dist
 twarc_ids.egg-info
