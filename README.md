@@ -20,7 +20,7 @@ And you have a new subcommand `ids` that is supplied by twarc-ids.
 It's good practice to include some tests for your module. See
 [test_twarc_ids.py] for an example. You can run these with [pytest]:
 
-    pytest test_twarc_ids
+    pytest
 
 When creating your setup.py make sure you don't forget the [entry_points magic]
 so that twarc will find your plugin when it is installed!
