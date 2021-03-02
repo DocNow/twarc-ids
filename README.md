@@ -21,10 +21,12 @@ It's good practice to include some tests for your module. See
 
     pytest test_twarc_ids
 
-When creating your setup.py make sure you don't forget the entry_points magic
+When creating your setup.py make sure you don't forget the [entry_points magic]
 so that twarc will find your plugin when it is installed!
 
 [click-plugins]: https://pypi.org/project/click-plugins/
 [pytest]: https://pypi.org/project/pytest/ 
 
 [test_twarc_ids.py]: https://github.com/DocNow/twarc-ids/blob/main/test_twarc_ids.py
+
+[entry_points magic]: https://github.com/DocNow/twarc-ids/blob/main/setup.py#L20-L22
