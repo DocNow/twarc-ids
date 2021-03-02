@@ -1,7 +1,8 @@
 # twarc-ids
 
 This module is a simple example of how to create a plugin for twarc. It uses
-[click-plugins].
+[click-plugins] to extend the main twarc command, and to manage the command
+line options.
 
 First you need to install twarc and this plugin:
 
