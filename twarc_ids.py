@@ -17,8 +17,11 @@ def ids(infile, outfile):
                 t = json.loads(line)
                 if 'id_str' in t:
                     click.echo(t['id_str'], file=outfile)
-                elif 'data' in t:
+                elif 'data' in t and 'id' in t['data']:
                     click.echo(t['data']['id'], file=outfile)
+                elif 'data' in t and type(t['data']) == list:
+                    for tweet in t['data']:
+                        click.echo(tweet['id'])
                 else:
                     click.echo(f'Unexpected JSON on line {count}')
                     break
