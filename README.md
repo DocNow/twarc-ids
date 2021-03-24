@@ -18,9 +18,10 @@ And you have a new subcommand `ids` that is supplied by twarc-ids.
     twarc ids tweets.jsonl > ids.txt
 
 It's good practice to include some tests for your module. See
-[test_twarc_ids.py] for an example. You can run these with [pytest]:
+[test_twarc_ids.py] for an example. You can run it directly with [pytest] or
+using:
 
-    pytest
+    python setup.py test
 
 When creating your setup.py make sure you don't forget the [entry_points magic]
 so that twarc will find your plugin when it is installed!
