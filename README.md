@@ -11,11 +11,11 @@ First you need to install twarc and this plugin:
 
 Now you can collect data using the core twarc utility:
 
-    twarc search blacklivesmatter > tweets.jsonl
+    twarc2 search blacklivesmatter > tweets.jsonl
 
 And you have a new subcommand `ids` that is supplied by twarc-ids.
 
-    twarc ids tweets.jsonl > ids.txt
+    twarc2 ids tweets.jsonl > ids.txt
 
 It's good practice to include some tests for your module. See
 [test_twarc_ids.py] for an example. You can run it directly with [pytest] or
