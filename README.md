@@ -4,8 +4,8 @@ This module is a simple reference implementation of a [twarc] plugin. It uses
 [click-plugins] to extend the main twarc command with an 'ids' subcommand that
 reads tweet data and writes out their identifiers.
 
-It also is an example of using `twarc.ensure_flattened` to make ensure that
-data has been "flattened" to make it easier to process Twitter API data as
+It also provides an example of using `twarc.ensure_flattened` to make ensure
+that data has been "flattened" to make it easier to process Twitter API data as
 a stream of tweets where referenced entities (users, media, etc) have had their
 ids turned into objects. While not strictly needed for this plugin it does make
 it easier to read the data since API responses can contain one tweet in the
