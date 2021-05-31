@@ -5,7 +5,7 @@ with open("README.md") as f:
 
 setuptools.setup(
     name='twarc-ids',
-    version='0.0.3',
+    version='0.0.4',
     url='https://github.com/docnow/twarc-ids',
     author='Ed Summers',
     author_email='ehs@pobox.com',
@@ -14,7 +14,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     python_requires='>=3.3',
-    install_requires=['twarc'],
+    install_requires=['twarc>=2.1.1'],
     setup_requires=['pytest-runner'],
     tests_require=['pytest'],
     entry_points='''
